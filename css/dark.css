@@ -1,3 +1,9 @@
+/***  dark.css + APRIL FOOLS!  ***/
+
+* {
+	cursor: wait!important;
+}
+
 body {
 	background-color: #272823;
 	color: #EEE;
@@ -27,7 +33,7 @@ div#saveNotify {
 }
 
 div.tooltip {
-	background-color: #171813;
+	background-color: #111;
 	border: 1px solid black;
 	box-shadow: -1px 3px 2px #111;
 }
@@ -181,6 +187,89 @@ body.noMask #buttons > .button {
 	color: #272823;
 }
 
-.logo-icon > path {
-  stroke: white;
+
+
+
+body {
+	background: url('../img/tile-background.jpg');
+	color: yellow!important;
+}
+
+.menu {
+	color: yellow!important;
+}
+
+.button {
+	background: url('../img/wefd.gif');
+}
+
+#bagspace-world,
+#map,
+.eventPanel {
+	background: url('../img/Rainbow.gif');
+}
+
+.construction {
+	background: url('../img/jZSGX.gif');
+	width: 390px;
+  	height: 351px;
+  	bottom: 0;
+}
+
+.paws {
+	background: url('../img/paws.gif')
+}
+
+.cute {
+	width: 288px;
+  height: 243px;
+	-webkit-transition: all 3s linear;
+  -moz-transition: all 3s linear;
+  -o-transition: all 3s linear;
+  -ms-transition: all 3s linear;
+  transition: all 3s linear;
+  position: absolute;
+  top: 30px;
+  left: 0;
+	background: url('../img/cute.gif')
+
+}
+
+.cute.move {
+  left: 100%;
+  margin-left: -288px; /*.animate width*/
+}
+
+.construction,
+.paws,
+.cute,
+.counter {
+	pointer-events: none;
+	position: fixed;
+}
+
+div#notifyGradient {
+	background-color: transparent!important;
+	background: none!important;
+}
+
+.eventPanel:before {
+	background-color: transparent;
+}
+
+#starsBack {
+	background: url('../img/Rainbow.gif');
+}
+
+iframe {
+	position: fixed;
+	height: 315px;
+	width:420px;
+	bottom: 0;
+	right: 0;
+}
+
+.counter {
+	top: 0;
+	right: 0;
 }
